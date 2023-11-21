@@ -69,8 +69,10 @@
     background: rgb(104, 57, 205);
     color: white;
     border-radius: 8px;
+    cursor: pointer;
   }
-  
+
+
   @media (max-width: 1024px) {
     .listing-photo {
       width: 100%;

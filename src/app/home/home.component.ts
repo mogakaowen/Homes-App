@@ -29,7 +29,7 @@ import { HousingService } from '../housing.service';
         this.housingLocationList = housingLocationList;
         this.filteredLocationList = housingLocationList;
       });
-    }
+    } // asynchronous call
 
     filterResults(text: string) {
       if (!text) {
